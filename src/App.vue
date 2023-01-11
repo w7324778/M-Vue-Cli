@@ -6,7 +6,6 @@
   export default defineComponent({
     name: 'App',
     setup() {
-        const name =''
     },
   })
 </script>
