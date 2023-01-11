@@ -14,3 +14,4 @@ src/main.ts
 src/icons
 dist
 config
+*.d.ts

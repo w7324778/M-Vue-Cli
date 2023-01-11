@@ -11,11 +11,11 @@ module.exports = {
     ga: true,
     chrome: true,
     __DEV__: true
-},
+  },
   extends: [
     'eslint:recommended',
     'plugin:vue/vue3-essential',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   overrides: [],
   // 解析 .vue 文件
@@ -42,8 +42,11 @@ module.exports = {
     'comma-dangle': 'off',
     'import/prefer-default-export': 'off', // 优先export default导出
     'no-param-reassign': 'off', // 函数参数属性的赋值
-    semi: 'off',
+    'no-empty-function': 'off',
+    '@typescript-eslint/no-empty-function': 'error',
     '@typescript-eslint/no-explicit-any': 'warn',
+    '@typescript-eslint/no-var-requires': 0,
+    '@typescript-eslint/ban-types': 'error', //不允许某些类型。
     'no-unused-expressions': 'off', // 联式调用使用?
     'import/no-cycle': 'off', // 导入循环引用报错
     'arrow-parens': 'off', // 箭头函数一个参数可以不要括号
@@ -83,6 +86,7 @@ module.exports = {
         before: true,
         after: true
       }
-    ]
+    ],
+    'vue/comment-directive': 'off'
   }
 }
