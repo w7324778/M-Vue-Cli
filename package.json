@@ -1,0 +1,27 @@
+{
+  "name": "m-vue-cli",
+  "version": "1.0.0",
+  "description": "vue3.0脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w7324778/M-Vue-Cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w7324778/M-Vue-Cli/issues"
+  },
+  "homepage": "https://github.com/w7324778/M-Vue-Cli#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.1",
+    "@commitlint/config-conventional": "^17.4.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
+  }
+}
