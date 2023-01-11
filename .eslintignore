@@ -1,0 +1,16 @@
+# .eslintignore 不需要检查的文件
+
+public
+dist
+node_modules
+lib
+coverage
+*.md
+*.scss
+*.woff
+*.ttf
+src/index.ts
+src/main.ts
+src/icons
+dist
+config
