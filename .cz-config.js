@@ -29,6 +29,6 @@ module.exports = {
   },
   allowCustomScopes: true,
   // 设置选择了那些type，才询问 breaking message
-  allowBreakingChanges: ['feat', 'fix', 'ui', 'hotfix', 'update', 'perf'],
+  allowBreakingChanges: ['feat', 'fix', 'ui', 'hotfix', 'update', 'perf','test','chore','ci','revert','refactor','build','style','docs'],
   subjectLimit: 100
 }
